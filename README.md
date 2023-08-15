@@ -1,1 +1,1 @@
-# VintagePLus
+# Vintage+
