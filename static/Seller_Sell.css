@@ -1,0 +1,577 @@
+
+html {
+	font-size:62.5%;
+}
+* {
+	margin: 0;
+	padding: 0;
+}
+ul, li {
+	list-style: none;
+}
+input {
+	border: none;
+}
+body {
+  width: 151.2rem;
+}
+.Seller_Sell_Content {
+  box-sizing: border-box;
+  padding: 4.1rem 1.9rem 1.7rem 1.9rem;
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  background-color: #ffffff;
+}
+.Seller_Sell_Content .logo {
+  margin-bottom: 5.6rem;
+  width: 45rem;
+  height: 7.1rem;
+  object-fit: cover;
+  vertical-align: top;
+  flex-shrink: 0;
+}
+.Seller_Sell_Content .user_part {
+  margin-right: 4.5rem;
+  width: calc(100% - 4.5rem);
+  height: 79.7rem;
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+}
+.Seller_Sell_Content .user_part .usr_info {
+  margin-right: 5.6rem;
+  width: 38.4rem;
+  height: 100%;
+  position: relative;
+  background-color: rgba(244, 246, 226, 0.3000000119);
+  border-radius: 1.5rem;
+  flex-shrink: 0;
+}
+.Seller_Sell_Content .user_part .usr_info .profile_img {
+  width: 15rem;
+  height: 15rem;
+  position: absolute;
+  left: 11.7rem;
+  top: 2.7rem;
+  border: solid 0.05rem #dbdbdb;
+  box-sizing: border-box;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-image: url('../assets/profileimg_basic.png');
+  border-radius: 7.5rem;
+}
+.Seller_Sell_Content .user_part .usr_info .nickname {
+  width: 5.8rem;
+  height: 1.7rem;
+  position: absolute;
+  left: 14.9rem;
+  top: 21rem;
+  display: flex;
+  font-size: 1.5rem;
+  font-weight: 500;
+  line-height: 1.085;
+  color: #000000;
+  font-family: Gemunu Libre, 'Source Sans Pro';
+  white-space: nowrap;
+}
+.Seller_Sell_Content .user_part .usr_info .id {
+  width: 8.3rem;
+  height: 1.6rem;
+  position: absolute;
+  left: 14.9rem;
+  top: 23.5rem;
+  font-size: 1.4rem;
+  font-weight: 400;
+  line-height: 1.085;
+  color: #767676;
+  font-family: Gemunu Libre, 'Source Sans Pro';
+  white-space: nowrap;
+}
+.Seller_Sell_Content .user_part .usr_info .info {
+  width: 36.4rem;
+  height: 29.55rem;
+  position: absolute;
+  left: 1.1rem;
+  top: 29.3rem;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+.Seller_Sell_Content .user_part .usr_info .info .level {
+  margin: 0rem 0rem 1.9rem 0.4rem;
+  box-sizing: border-box;
+  padding: 0rem 1.1rem 0rem 1.975rem;
+  width: 36rem;
+  height: 3.45rem;
+  border-bottom: solid 0.1rem #b6b6b6;
+  flex-shrink: 0;
+  display: flex;
+  align-items: flex-end
+}
+.Seller_Sell_Content .user_part .usr_info .info .level .level_part {
+  width: 100%;
+  height: 2.85rem;
+  display: flex;
+  align-items: flex-end;
+}
+
+.Seller_Sell_Content .user_part .usr_info .info .level .level_part .level_label {
+  margin: 0rem 21.9rem 0.4rem 1.175rem;
+  font-size: 1.5rem;
+  font-weight: 600;
+  line-height: 1.1725;
+  text-transform: uppercase;
+  color: #767676;
+  font-family: Roboto, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.Seller_Sell_Content .user_part .usr_info .info .level .level_part .level_output {
+  margin-right: 0.2rem;
+  text-align: right;
+  font-size: 2rem;
+  font-weight: 600;
+  line-height: 1.1725;
+  text-transform: uppercase;
+  color: #000000;
+  font-family: Roboto, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.Seller_Sell_Content .user_part .usr_info .info .level .level_part .level_txt {
+  margin-bottom: 0.1rem;
+  font-size: 1.5rem;
+  font-weight: 600;
+  line-height: 1.1725;
+  text-transform: uppercase;
+  color: #767676;
+  font-family: Roboto, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.Seller_Sell_Content .user_part .usr_info .info .money {
+  margin: 0rem 0.3rem 6.075rem 0.1rem;
+  box-sizing: border-box;
+  padding: 0rem 0.7rem 0rem 1.9rem;
+  width: calc(100% - 0.4rem);
+  height: 3.7rem;
+  border-bottom: solid 0.1rem #b6b6b6;
+  flex-shrink: 0;
+}
+.Seller_Sell_Content .user_part .usr_info .info .money .money_part {
+  width: 100%;
+  height: 3.35rem;
+  display: flex;
+  align-items: flex-end;
+}
+
+.Seller_Sell_Content .user_part .usr_info .info .money .money_part .money_label {
+  margin: 0rem 19.5rem 0.75rem 1.175rem;
+  font-size: 1.5rem;
+  font-weight: 600;
+  line-height: 1.1725;
+  text-transform: uppercase;
+  color: #767676;
+  font-family: Roboto, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.Seller_Sell_Content .user_part .usr_info .info .money .money_part .money_output {
+  margin: 0rem 1.1rem 0.05rem 0rem;
+  text-align: right;
+  font-size: 2rem;
+  font-weight: 600;
+  line-height: 1.1725;
+  text-transform: uppercase;
+  color: #000000;
+  font-family: Roboto, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.Seller_Sell_Content .user_part .usr_info .info .money .money_part .money_txt {
+  font-size: 1.5rem;
+  font-weight: 600;
+  line-height: 1.1725;
+  text-transform: uppercase;
+  color: #767676;
+  font-family: Roboto, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.Seller_Sell_Content .user_part .usr_info .info .total {
+  margin: 0rem 0.3rem 2.025rem 0.1rem;
+  box-sizing: border-box;
+  padding: 0rem 1.3rem 0rem 2.275rem;
+  width: calc(100% - 0.4rem);
+  height: 3.225rem;
+  border-bottom: solid 0.1rem #b6b6b6;
+  flex-shrink: 0;
+}
+.Seller_Sell_Content .user_part .usr_info .info .total .total_part {
+  width: 100%;
+  height: 2.825rem;
+  display: flex;
+  align-items: center;
+}
+.Seller_Sell_Content .user_part .usr_info .info .total .total_part .total_label {
+  margin: 0rem 19rem 0.375rem 1.175rem;
+  font-size: 1.5rem;
+  font-weight: 600;
+  line-height: 1.1725;
+  text-transform: uppercase;
+  color: #767676;
+  font-family: Roboto, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.Seller_Sell_Content .user_part .usr_info .info .total .total_part .total_output {
+  margin: 0.425rem 1.1rem 0rem 0rem;
+  text-align: right;
+  font-size: 2rem;
+  font-weight: 600;
+  line-height: 1.1725;
+  text-transform: uppercase;
+  color: #000000;
+  font-family: Roboto, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.Seller_Sell_Content .user_part .usr_info .info .total .total_part .total_txt {
+  margin-top: 0.225rem;
+  font-size: 1.5rem;
+  font-weight: 600;
+  line-height: 1.1725;
+  text-transform: uppercase;
+  color: #767676;
+  font-family: Roboto, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.Seller_Sell_Content .user_part .usr_info .info .complete {
+  margin: 0rem 0.3rem 2.05rem 0.1rem;
+  box-sizing: border-box;
+  padding: 0rem 1.3rem 0rem 2.275rem;
+  width: calc(100% - 0.4rem);
+  height: 3.575rem;
+  border-bottom: solid 0.1rem #b6b6b6;
+  flex-shrink: 0;
+}
+.Seller_Sell_Content .user_part .usr_info .info .complete .complete_part {
+  width: 100%;
+  height: 3.175rem;
+  display: flex;
+  align-items: center;
+}
+.Seller_Sell_Content .user_part .usr_info .info .complete .complete_part .complete_label {
+  margin: 0rem 20.5rem 0.025rem 1.175rem;
+  font-size: 1.5rem;
+  font-weight: 600;
+  line-height: 1.1725;
+  text-transform: uppercase;
+  color: #767676;
+  font-family: Roboto, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.Seller_Sell_Content .user_part .usr_info .info .complete .complete_part .complete_output {
+  margin: 0.775rem 1.1rem 0rem 0rem;
+  text-align: right;
+  font-size: 2rem;
+  font-weight: 600;
+  line-height: 1.1725;
+  text-transform: uppercase;
+  color: #000000;
+  font-family: Roboto, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.Seller_Sell_Content .user_part .usr_info .info .complete .complete_part .complete_txt {
+  margin-top: 0.775rem;
+  font-size: 1.5rem;
+  font-weight: 600;
+  line-height: 1.1725;
+  text-transform: uppercase;
+  color: #767676;
+  font-family: Roboto, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.Seller_Sell_Content .user_part .usr_info .info .ing {
+  margin-right: 0.4rem;
+  box-sizing: border-box;
+  padding: 0rem 1.3rem 0rem 2.25rem;
+  width: 36rem;
+  height: 3.55rem;
+  border-bottom: solid 0.1rem #b6b6b6;
+  flex-shrink: 0;
+}
+.Seller_Sell_Content .user_part .usr_info .info .ing .ing_part {
+  width: 100%;
+  height: 3.15rem;
+  display: flex;
+  align-items: center;
+}
+.Seller_Sell_Content .user_part .usr_info .info .ing .ing_part .ing_label {
+  margin: 0rem 22rem 0.05rem 0.95rem;
+  font-size: 1.5rem;
+  font-weight: 600;
+  line-height: 1.1725;
+  text-transform: uppercase;
+  color: #767676;
+  font-family: Roboto, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.Seller_Sell_Content .user_part .usr_info .info .ing .ing_part .ing_output {
+  margin: 0.75rem 1rem 0rem 0rem;
+  text-align: right;
+  font-size: 2rem;
+  font-weight: 600;
+  line-height: 1.1725;
+  text-transform: uppercase;
+  color: #000000;
+  font-family: Roboto, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.Seller_Sell_Content .user_part .usr_info .info .ing .ing_part .ing_txt {
+  margin-top: 1.15rem;
+  font-size: 1.5rem;
+  font-weight: 600;
+  line-height: 1.1725;
+  text-transform: uppercase;
+  color: #767676;
+  font-family: Roboto, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.Seller_Sell_Content .user_part .usr_info .decide_button {
+  width: 29.2rem;
+  height: 5.6rem;
+  position: absolute;
+  left: 4.6rem;
+  top: 65rem;
+  text-align: center;
+  font-size: 2rem;
+  font-weight: 600;
+  line-height: 1.1725;
+  color: #ffffff;
+  font-family: Roboto, 'Source Sans Pro';
+  white-space: nowrap;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #baceb0;
+  border-radius: 3rem;
+  border: none;
+}
+.Seller_Sell_Content .user_part .usr_info .main_button {
+  width: 29.2rem;
+  height: 5.6rem;
+  position: absolute;
+  left: 4.6rem;
+  top: 72rem;
+  text-align: center;
+  font-size: 2rem;
+  font-weight: 600;
+  line-height: 1.1725;
+  color: #ffffff;
+  font-family: Roboto, 'Source Sans Pro';
+  white-space: nowrap;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #baceb0;
+  border-radius: 3rem;
+  border: none;
+}
+.Seller_Sell_Content .user_part .add {
+  margin-top: 5rem;
+  box-sizing: border-box;
+}
+
+.Seller_Sell_Content .user_part .add .title_content {
+  box-sizing: border-box;
+  padding: 1.414rem 69.183rem 1.686rem 1.94rem;
+  position: relative;
+  width: 103.2rem;
+  display: flex;
+  align-items: center;
+  background-color: rgba(143, 188, 143, 0.8000000119);
+  border-radius: 1.5rem;
+  flex-shrink: 0;
+}
+.Seller_Sell_Content .user_part .add .title_content .title {
+  margin-right: 2.0774rem;
+  display: flex;
+  font-size: 3rem;
+  font-weight: 400;
+  line-height: 1.155;
+  color: #ffffff;
+  font-family: Yeseva One, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.Seller_Sell_Content .user_part .add .title_content .subtitle {
+  margin-top: 0.9532rem;
+  display: flex;
+  font-size: 1.3rem;
+  font-weight: 400;
+  line-height: 1.155;
+  color: #ffffff;
+  font-family: Yeseva One, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.Seller_Sell_Content .user_part .add .add_content {
+  box-sizing: border-box;
+  padding: 2.9rem 2.4rem 1.8rem 2.4rem;
+  width: 100%;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  flex-shrink: 0;
+}
+.Seller_Sell_Content .user_part .add .add_content .name {
+  margin: 0rem 5.4rem 2.65rem 0rem;
+  width: 93rem;
+  border-radius: 0.5rem;
+  flex-shrink: 0;
+}
+.Seller_Sell_Content .user_part .add .add_content .name .label {
+  margin-bottom: 1.7rem;
+  display: flex;
+  font-size: 2rem;
+  font-weight: 500;
+  line-height: 1.3;
+  color: #000000;
+  font-family: Krub, 'Source Sans Pro';
+  white-space: nowrap;
+}
+.Seller_Sell_Content .user_part .add .add_content .name .name_input {
+  margin: 0rem 1.9rem 0.15rem 0rem;
+  box-sizing: border-box;
+  padding: 1.05rem 1.2rem 0.95rem 1.2rem;
+  width: 85rem;
+  display: flex;
+  font-size: 1.8rem;
+  font-weight: 400;
+  line-height: 1.4475;
+  color: #888888;
+  font-family: Noto Sans KR, 'Source Sans Pro';
+  white-space: nowrap;
+  border: solid 0.1rem #686666;
+  border-radius: 0.5rem;
+  flex-shrink: 0;
+}
+.Seller_Sell_Content .user_part .add .add_content .price {
+  margin: 0rem 8.811rem 2.8rem 0rem;
+  width: 89.5887rem;
+  border-radius: 0.5rem;
+  flex-shrink: 0;
+}
+.Seller_Sell_Content .user_part .add .add_content .price .label {
+  margin-bottom: 1rem;
+  display: flex;
+  font-size: 2rem;
+  font-weight: 500;
+  line-height: 1.5;
+  color: #000000;
+  font-family: Krub, 'Source Sans Pro';
+  white-space: nowrap;
+}
+.Seller_Sell_Content .user_part .add .add_content .price .price_input {
+  margin: 0rem 1.9rem 0.15rem 0rem;
+  box-sizing: border-box;
+  padding: 1.05rem 1.2rem 0.95rem 1.2rem;
+  width: 85rem;
+  display: flex;
+  font-size: 1.8rem;
+  font-weight: 400;
+  line-height: 1.4475;
+  color: #888888;
+  font-family: Noto Sans KR, 'Source Sans Pro';
+  white-space: nowrap;
+  border: solid 0.1rem #686666;
+  border-radius: 0.5rem;
+  flex-shrink: 0;
+}
+.Seller_Sell_Content .user_part .add .add_content .description {
+  margin: 0rem 13.4rem 2.95rem 0rem;
+  width: 85rem;
+  border-radius: 0.5rem;
+  flex-shrink: 0;
+}
+.Seller_Sell_Content .user_part .add .add_content .description .label {
+  margin-bottom: 1rem;
+  display: flex;
+  font-size: 2rem;
+  font-weight: 500;
+  line-height: 1.5;
+  color: #000000;
+  font-family: Krub, 'Source Sans Pro';
+  white-space: nowrap;
+}
+.Seller_Sell_Content .user_part .add .add_content .description .des_input {
+  margin: 0rem 1.9rem 0.15rem 0rem;
+  box-sizing: border-box;
+  padding: 1.05rem 1.2rem 0.95rem 1.2rem;
+  width: 85rem;
+  height: 15rem;
+  display: flex;
+  font-size: 1.8rem;
+  font-weight: 400;
+  line-height: 1.4475;
+  color: #888888;
+  font-family: Noto Sans KR, 'Source Sans Pro';
+  white-space: nowrap;
+  border: solid 0.1rem #686666;
+  border-radius: 0.5rem;
+  flex-shrink: 0;
+}
+.Seller_Sell_Content .user_part .add .add_content .img {
+  margin: 0rem 13.4rem 6rem 0rem;
+  width: 85rem;
+  border-radius: 0.5rem;
+  flex-shrink: 0;
+}
+
+.Seller_Sell_Content .user_part .add .add_content .img .label {
+  margin-bottom: 1.75rem;
+  display: flex;
+  font-size: 2rem;
+  font-weight: 500;
+  line-height: 1.3;
+  color: #000000;
+  font-family: Krub, 'Source Sans Pro';
+  white-space: nowrap;
+}
+.Seller_Sell_Content .user_part .add .add_content .img .select_img {
+  width: 100%;
+  height: 5.2rem;
+  position: relative;
+  font-size: 2rem;
+}
+.Seller_Sell_Content .user_part .add .add_content .add_btn {
+  margin: 0 38.7rem;
+  width: calc(100% - 77.4rem);
+  height: 6.6rem;
+  display: flex;
+  font-size: 2rem;
+  font-weight: 700;
+  line-height: 1.5;
+  color: #ffffff;
+  font-family: Noto Sans KR, 'Source Sans Pro';
+  white-space: nowrap;
+  align-items: center;
+  justify-content: center;
+  background-color: #999595;
+  border-radius: 1rem;
+  flex-shrink: 0;
+  border: none;
+}
