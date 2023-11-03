@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <link rel="icon" href="/favicon.ico" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="theme-color" content="#000000" />
+  <title>판매자 페이지 - 상품팔기</title>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Gemunu+Libre%3A400%2C500"/>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro%3A400%2C500%2C600%2C700"/>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto%3A400%2C600"/>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Yeseva+One%3A400"/>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Krub%3A500"/>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Noto+Sans+KR%3A400%2C700"/>
+  <link rel="stylesheet" href="/static/Seller_Sell.css"/>
+</head>
+
+<body>
+<div class="Seller_Sell_Content">
+  <img class="logo_simple" src="./assets/logo_simple.png" style="height:80px; width:500px;"/>
+  
+  <div class="user_part">
+
+    <div class="usr_info">
+
+      <div class="profile_img"></div>
+      <div class="nickname">율전동 주인장</div>
+      <div class="id">@ master_yuljeon</div>
+      
+      <div class="info">
+
+        <div class="level">
+          <div class="level_part">
+            <img class="icon" src="./assets/level_icon.png" height ="30" width="30"/>
+            <p class="level_label">레벨</p>
+            <p class="level_output">1</p>
+            <p class="level_txt">LEVEL</p>
+          </div>
+        </div>
+
+        <div class="money">
+          <div class="money_part">
+            <img class="icon" src="./assets/money_icon.png" height ="30" width="30"/>
+            <p class="money_label">포인트</p>
+            <p class="money_output">0</p>
+            <p class="money_txt">POINT</p>
+          </div>
+        </div>
+
+        <div class="total">
+          <div class="total_part">
+            <img class="icon" src="./assets/sell_icon.png" height ="25" width="25"/>
+            <p class="total_label">판매한 상품</p>
+            <p class="total_output">3</p>
+            <p class="total_txt">개</p>
+          </div>
+        </div>
+
+        <div class="complete">
+          <div class="complete_part">
+            <img class="icon" src="./assets/soldout_icon.png" height ="25" width="25"/>
+            <p class="complete_label">판매 완료</p>
+            <p class="complete_output">1</p>
+            <p class="complete_txt">개</p>
+          </div>
+        </div>
+
+        <div class="ing">
+          <div class="ing_part">
+            <img class="icon" src="./assets/selling_icon.png" height ="30" width="30"/>
+            <p class="ing_label">판매중</p>
+            <p class="ing_output">2</p>
+            <p class="ing_txt">개</p>
+          </div>
+        </div>
+      </div>
+
+      <button type="button" class="decide_button" onClick="location.href='Seller_Decide.html'"><img src="./assets/decide_icon.png" />DECIDE</button>
+      <button type="button" class="main_button" onClick="location.href='Seller_Main.html'"><img src="./assets/home_icon.png" height ="25" width="25"/>MAIN</button>
+    </div>
+
+    <div class ="add">
+      
+      <div class="title_content">
+        <div class="title">ADD PRODUCT</div>
+        <div class="subtitle">팔고 싶은 상품을 등록해 보세요</div>
+      </div>
+      
+      <div class="add_content">
+        
+        <div class="name">
+          <div class="label">상품명</div>
+          <input type="text" class = "name_input" name="p_name" placeholder="상품 제목을 입력해주세요" id="p_name">
+        </div>
+
+        <div class="price">
+          <div class="label">최소 가격</div>
+          <input type="text" class = "price_input" name="p_price" placeholder="숫자만 입력해주세요 (단위:원)" id="p_price">
+        </div>
+
+        <div class="description">
+          <div class="label">상품 설명</div>
+          <input type="text" class = "des_input" name="p_des" placeholder="상품 설명을 입력해주세요" id="p_des">
+        </div>
+        
+        <div class="img">
+          <div class="label">상품 이미지</div>
+          <input type="file" class="select_img" id="image" name="image">
+        </div>
+        
+        <button type="button" class="add_btn" onClick="location.href='Seller_Sell.html'">등록하기</button>
+      </div>
+    </div>
+  
+  </div>
+</div>
+</body>
